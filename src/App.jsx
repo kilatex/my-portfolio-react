@@ -5,9 +5,9 @@ import { MainRouterComponent } from './router/MainRouterComponent'
 function App() {
 
   return (
-    <>
+    <div className='layout'>
           <MainRouterComponent></MainRouterComponent>
-    </>
+   </div>
   )
 }
 

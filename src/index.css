@@ -22,7 +22,24 @@ h2.error-title{
 
 .header .logo{
     flex-grow: 2;
+    display: flex;
 }
+
+.header .logo span{
+    display: block;
+    font-size: 90px;
+    font-weight: bolder;
+    margin-top: -8px;
+}
+
+.header .logo h3{
+    display: block;
+    flex-basis: 40px;
+    margin-left: 10px;
+    align-self: center;
+    font-weight: 400;
+}
+
 .header nav{
     flex-grow: 1;
 }

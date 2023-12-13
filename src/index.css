@@ -132,3 +132,117 @@ body {
     text-align: center;
     color: #888;
   }
+
+  /* SERVICES SECTION STYLES */
+
+.services {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .services h2 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .service {
+    margin-top: 20px;
+  }
+  
+  .service h3 {
+    color: #3498db;
+  }
+  
+  .service p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+
+  /* ContactComponent Styles */
+
+.contact {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact h2 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }
+
+  /* CVComponent Styles */
+
+.curriculum {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .curriculum h2 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .experience,
+  .education {
+    margin-top: 20px;
+  }
+  
+  .job,
+  .school {
+    margin-bottom: 20px;
+  }
+  
+  .job h4,
+  .school h4{
+    color: #3498db;
+  }
+  
+  .date {
+    color: #777;
+  }

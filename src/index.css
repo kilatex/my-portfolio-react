@@ -246,3 +246,48 @@ body {
   .date {
     color: #777;
   }
+
+  /* PORTFOLIO STYLES */
+
+  /* Add these styles to your existing styles.css or create a new one */
+
+
+
+/* Update this in your existing styles or create a new one */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+.project-card {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.project-card a {
+  color: #2ecc71;
+}
+
+.projects-img img{
+    width: 100%;
+}
